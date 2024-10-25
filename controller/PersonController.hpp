@@ -18,8 +18,9 @@ public:
    PersonController() : personRepository(std::make_shared<Middleware::PersonRepository>()){};
    auto getUserByLogin(HttpRequestPtr req,std::function<void(const drogon::HttpResponsePtr&)> callback,std::string login)->drogon::Task<>;
    auto createUser(HttpRequestPtr req,std::function<void(const drogon::HttpResponsePtr&)> callback)->drogon::Task<>;
+
     METHOD_LIST_BEGIN
-        ADD_METHOD_TO(PersonController::getUserByLogin,"/user/{login}",HttpMethod::Post);
+        ADD_METHOD_TO(PersonController::getUserByLogin,"/{login}",HttpMethod::Post);
         ADD_METHOD_TO(PersonController::createUser,"/register",HttpMethod::Post);
     METHOD_LIST_END
 

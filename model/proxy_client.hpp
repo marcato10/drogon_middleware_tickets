@@ -22,7 +22,6 @@ namespace Middleware {
         ProxyClient() : jsonReader(Json::CharReaderBuilder{}.newCharReader()),
         httpClient(HttpClient::newHttpClient("http://127.0.0.1:3000")) {};
         drogon::Task<ServerResponse> getCoro(const std::string& path);
-
         drogon::Task<ServerResponse> postCoro(const std::string& path,const Json::Value& body);
         drogon::Task<ServerResponse> putCoro(const std::string& path,const Json::Value& data);
         //drogon::Task<ServerResponse> delCoro(const std::string& path);

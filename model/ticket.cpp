@@ -60,3 +60,17 @@ Ticket Ticket::fromJson(const Json::Value &jsonTicket) {
             static_cast<Status>(jsonTicket["Status"].asInt())
     );
 }
+
+void Ticket::setPrioridade(int prioridade_) {
+    this->prioridade = prioridade_;
+}
+
+void Ticket::setIdPessoa(int pessoa_id) {
+    this->id_pessoa = pessoa_id;
+}
+
+void Ticket::setStatus(Status status_) {
+    this->status = status_;
+}
+
+

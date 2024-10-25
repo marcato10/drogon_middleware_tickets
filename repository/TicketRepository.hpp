@@ -17,10 +17,11 @@ namespace Middleware {
         drogon::Task<std::vector<Ticket>> getAllTicketsCoro(Json::Value& out);
         drogon::Task<ServerResponse> createTicketCoro(Ticket ticket);
         drogon::Task<ServerResponse> updateTicketCoro(int ticket_id, Json::Value& input);
-        drogon::Task<std::vector<Ticket>> getCompletedTicketsCoro();
-        drogon::Task<std::vector<Ticket>> getIncompleteTicketsCoro();
-        drogon::Task<std::vector<Ticket>> getTicketsByUserCoro(int user_id);
-        drogon::Task<std::optional<Ticket>> getTicketByIdCoro(int ticket_id);
+        drogon::Task<std::vector<Ticket>> getCompletedTicketsCoro(Json::Value& out);
+        drogon::Task<std::vector<Ticket>> getInProgressTicketsCoro(Json::Value& out);
+        drogon::Task<std::vector<Ticket>> getOpenTickets(Json::Value& out);
+        drogon::Task<std::vector<Ticket>> getTicketsByUserCoro(int user_id,Json::Value& out);
+        drogon::Task<std::optional<Ticket>> getTicketByIdCoro(int ticket_id,Json::Value& out);
     };
 };
 

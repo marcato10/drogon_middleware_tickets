@@ -41,9 +41,14 @@ public:
     const std::string &getTitulo();
     const std::string &getDescricao();
     int getPrioridade() const;
+    void setPrioridade(int prioridade_);
     std::optional<int> getIdPessoa();
+    void setIdPessoa(int pessoa_id);
     Status getStatus() const;
+    void setStatus(Status status_);
+
     int getStatusInt() const;
+
 
 };
 #endif
