@@ -1,0 +1,10 @@
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/person.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/ticket.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/proxy_client.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/person_controller.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/ticket_controller.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/person_repository.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/ticket_repository.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/middleware.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/marcato/CLionProjects/middleware/cmake-build-release/CMakeFiles/rebuild_cache.dir

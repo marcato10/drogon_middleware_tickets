@@ -1,0 +1,45 @@
+{
+    "version": 3,
+    "vendor": {
+        "conan": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "conan-release",
+            "displayName": "'conan-release' config",
+            "description": "'conan-release' configure using 'Ninja' generator",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+                "CMAKE_BUILD_TYPE": "Release"
+            },
+            "environment": {
+                "CXX": "clang++",
+                "CC": "clang"
+            },
+            "toolchainFile": "generators/conan_toolchain.cmake",
+            "binaryDir": "/home/marcato/CLionProjects/middleware/cmake-build-release/conan/build/Release"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "conan-release",
+            "configurePreset": "conan-release",
+            "jobs": 8
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "conan-release",
+            "configurePreset": "conan-release",
+            "environment": {
+                "OPENSSL_MODULES": "/home/marcato/.conan2/p/b/opens6dd5fafe7b1e0/p/lib/ossl-modules"
+            }
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -DCMAKE_PROJECT_TOP_LEVEL_INCLUDES=conan_provider.cmake -G Ninja -DPython_EXECUTABLE=/home/marcato/CLionProjects/middleware/venv/bin/python -DPython3_EXECUTABLE=/home/marcato/CLionProjects/middleware/venv/bin/python -S /home/marcato/CLionProjects/middleware -B /home/marcato/CLionProjects/middleware/cmake-build-debug
+-- CMake-Conan: first find_package() found. Installing dependencies with Conan
+-- CMake-Conan: Checking if a default profile exists
+/home/marcato/.conan2/profiles/default
+-- CMake-Conan: cmake_system_name=Linux
+-- CMake-Conan: cmake_system_processor=x86_64
+-- CMake-Conan: CMake compiler=GNU
+-- CMake-Conan: CMake compiler version=13.2.0
+-- CMake-Conan: [settings] compiler=gcc
+-- CMake-Conan: [settings] compiler.version=13
+-- CMake-Conan: Creating profile /home/marcato/CLionProjects/middleware/cmake-build-debug/conan_host_profile
+-- CMake-Conan: Profile: 
+[settings]
+arch=x86_64
+os=Linux
+compiler=gcc
+compiler.version=13
+compiler.cppstd=20
+compiler.libcxx=libstdc++11
+build_type=Debug
+[conf]
+tools.cmake.cmaketoolchain:generator=Ninja
+tools.build:compiler_executables={"c":"/usr/bin/cc","cpp":"/usr/bin/c++"}
+
+-- CMake-Conan: Installing single configuration Debug
+-- CMake-Conan: conan install /home/marcato/CLionProjects/middleware -of=/home/marcato/CLionProjects/middleware/cmake-build-debug/conan --profile:host=default;--profile:host=/home/marcato/CLionProjects/middleware/cmake-build-debug/conan_host_profile;--profile:build=default;--build=missing
+
+======== Input profiles ========
+Profile host:
+[settings]
+arch=x86_64
+build_type=Debug
+compiler=gcc
+compiler.cppstd=20
+compiler.libcxx=libstdc++11
+compiler.version=13
+os=Linux
+[conf]
+tools.build:compiler_executables={'c': '/usr/bin/cc', 'cpp': '/usr/bin/c++'}
+tools.cmake.cmaketoolchain:generator=Ninja
+[buildenv]
+CC=clang
+CXX=clang++
+
+Profile build:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=clang
+compiler.cppstd=20
+compiler.libcxx=libc++
+compiler.version=18
+os=Linux
+[buildenv]
+CC=clang
+CXX=clang++
+
+
+======== Computing dependency graph ========
+Graph root
+    conanfile.py: /home/marcato/CLionProjects/middleware/conanfile.py
+Requirements
+    boost/1.83.0#824266b91aab4ccba92e76bac65a7612 - Cache
+    bzip2/1.0.8#d00dac990f08d991998d624be81a9526 - Cache
+    c-ares/1.25.0#b4637401391147b6ee5d8d17ee643fb7 - Cache
+    drogon/1.9.7#ef0f8d8f10b135bea45ccebe22f25afd - Cache
+    jsoncpp/1.9.5#9415a4cf4d2e8965408f3a01a8339b48 - Cache
+    libbacktrace/cci.20210118#a7691bfccd8caaf66309df196790a5a1 - Cache
+    openssl/3.3.2#9f9f130d58e7c13e76bb8a559f0a6a8b - Cache
+    trantor/1.5.21#1ab09e01fc4a574ed6cd1acc86ab8713 - Cache
+    util-linux-libuuid/2.39.2#339f80aea7e5cf507b5b9839a128909f - Cache
+    zlib/1.3.1#f52e03ae3d251dec704634230cd806a2 - Cache
+Build requirements
+    b2/5.2.1#91bc73931a0acb655947a81569ed8b80 - Cache
+Resolved version ranges
+    b2/[>=5.2 <6]: b2/5.2.1
+    openssl/[>=1.1 <4]: openssl/3.3.2
+    zlib/[>=1.2.11 <2]: zlib/1.3.1
+
+======== Computing necessary packages ========
+Requirements
+    boost/1.83.0#824266b91aab4ccba92e76bac65a7612:65dde7639386fb1b709bf1e044e896561cdd02e1#d2fb19772a491bfd8aff78f3a675dc5c - Cache
+    bzip2/1.0.8#d00dac990f08d991998d624be81a9526:f658a7d5064609a1016f930e03b14f656c1975b8#f64acb9196ca4ca2f14e5fac11d03610 - Cache
+    c-ares/1.25.0#b4637401391147b6ee5d8d17ee643fb7:adcdf71952371f899dbcf552908b00cea3eb331d#e9480ba74756d5d8bc660a588efbdf6b - Cache
+    drogon/1.9.7#ef0f8d8f10b135bea45ccebe22f25afd:c12168b639499459ab88ac95e7eafba0f7786400#33e029f839be361a97921e2501f48b0f - Cache
+    jsoncpp/1.9.5#9415a4cf4d2e8965408f3a01a8339b48:973058e923b04a2702ae9885402c96fa5d7e8617#77d6bbb6ace9b17f59379a4b961b934e - Cache
+    libbacktrace/cci.20210118#a7691bfccd8caaf66309df196790a5a1:38b2cc754fb9d09f09f3ffbd1ad34ef29bbb4b77#7337dca80238f5b2e34143f9443f27f4 - Cache
+    openssl/3.3.2#9f9f130d58e7c13e76bb8a559f0a6a8b:d2f92b60661cceae349d2ba130929587698dab48#b54cd4bf31e288327dee6c3c375f4a30 - Cache
+    trantor/1.5.21#1ab09e01fc4a574ed6cd1acc86ab8713:fd4425b1e60b2591f1b44ea3ed3a4bf1d0f2c330#10a3fd8a825bd249d0be608e0ddc9949 - Cache
+    util-linux-libuuid/2.39.2#339f80aea7e5cf507b5b9839a128909f:38b2cc754fb9d09f09f3ffbd1ad34ef29bbb4b77#b7da7bdbead44b62a4d64382d687013b - Cache
+    zlib/1.3.1#f52e03ae3d251dec704634230cd806a2:38b2cc754fb9d09f09f3ffbd1ad34ef29bbb4b77#68fcdc9cc599d954d15ef3e564586daf - Cache
+Build requirements
+Skipped binaries
+    b2/5.2.1
+
+======== Installing packages ========
+bzip2/1.0.8: Already installed! (1 of 10)
+c-ares/1.25.0: Already installed! (2 of 10)
+jsoncpp/1.9.5: Already installed! (3 of 10)
+libbacktrace/cci.20210118: Already installed! (4 of 10)
+util-linux-libuuid/2.39.2: Already installed! (5 of 10)
+zlib/1.3.1: Already installed! (6 of 10)
+boost/1.83.0: Already installed! (7 of 10)
+openssl/3.3.2: Already installed! (8 of 10)
+trantor/1.5.21: Already installed! (9 of 10)
+drogon/1.9.7: Already installed! (10 of 10)
+WARN: deprecated: Usage of deprecated Conan 1.X features that will be removed in Conan 2.X:
+WARN: deprecated:     'cpp_info.names' used in: drogon/1.9.7, boost/1.83.0, c-ares/1.25.0, zlib/1.3.1, trantor/1.5.21, bzip2/1.0.8, openssl/3.3.2
+WARN: deprecated:     'cpp_info.build_modules' used in: bzip2/1.0.8, openssl/3.3.2, jsoncpp/1.9.5
+WARN: deprecated:     'env_info' used in: boost/1.83.0, bzip2/1.0.8, c-ares/1.25.0, openssl/3.3.2
+WARN: deprecated:     'cpp_info.filenames' used in: boost/1.83.0, drogon/1.9.7
+WARN: deprecated:     'user_info' used in: boost/1.83.0
+
+======== Finalizing install (deploy, generators) ========
+conanfile.py: Writing generators to /home/marcato/CLionProjects/middleware/cmake-build-debug/conan/build/Debug/generators
+conanfile.py: Generator 'CMakeDeps' calling 'generate()'
+conanfile.py: CMakeDeps necessary find_package() and targets for your CMakeLists.txt
+    find_package(Drogon)
+    target_link_libraries(... Drogon::Drogon)
+conanfile.py: Calling generate()
+conanfile.py: Generators folder: /home/marcato/CLionProjects/middleware/cmake-build-debug/conan/build/Debug/generators
+conanfile.py: CMakeToolchain generated: conan_toolchain.cmake
+conanfile.py: CMakeToolchain: Preset 'conan-debug' added to CMakePresets.json.
+    (cmake>=3.23) cmake --preset conan-debug
+    (cmake<3.23) cmake <path> -G Ninja -DCMAKE_TOOLCHAIN_FILE=generators/conan_toolchain.cmake  -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Debug
+conanfile.py: CMakeToolchain generated: /home/marcato/CLionProjects/middleware/cmake-build-debug/conan/build/Debug/generators/CMakePresets.json
+conanfile.py: Generating aggregated env files
+conanfile.py: Generated aggregated env files: ['conanbuild.sh', 'conanrun.sh']
+Install finished successfully
+-- CMake-Conan: CONAN_GENERATORS_FOLDER=/home/marcato/CLionProjects/middleware/cmake-build-debug/conan/build/Debug/generators
+-- CMake-Conan: CONANFILE=/home/marcato/CLionProjects/middleware/conanfile.py
+-- Conan: Target declared 'Drogon::Drogon'
+-- CMake-Conan: find_package(Trantor) found, 'conan install' already ran
+-- Conan: Target declared 'Trantor::Trantor'
+-- CMake-Conan: find_package(c-ares) found, 'conan install' already ran
+-- Conan: Component target declared 'c-ares::cares'
+-- CMake-Conan: find_package(OpenSSL) found, 'conan install' already ran
+-- Conan: Component target declared 'OpenSSL::Crypto'
+-- Conan: Component target declared 'OpenSSL::SSL'
+-- Conan: Target declared 'openssl::openssl'
+-- CMake-Conan: find_package(ZLIB) found, 'conan install' already ran
+-- Conan: Target declared 'ZLIB::ZLIB'
+-- Conan: Including build module from '/home/marcato/.conan2/p/b/opens7e5ce8c1ed599/p/lib/cmake/conan-official-openssl-variables.cmake'
+-- CMake-Conan: find_package(jsoncpp) found, 'conan install' already ran
+-- Conan: Target declared 'JsonCpp::JsonCpp'
+-- CMake-Conan: find_package(libuuid) found, 'conan install' already ran
+-- Conan: Target declared 'libuuid::libuuid'
+-- CMake-Conan: find_package(Boost) found, 'conan install' already ran
+-- Conan: Component target declared 'Boost::diagnostic_definitions'
+-- Conan: Component target declared 'Boost::disable_autolinking'
+-- Conan: Component target declared 'Boost::dynamic_linking'
+-- Conan: Component target declared 'Boost::headers'
+-- Conan: Component target declared 'Boost::boost'
+-- Conan: Component target declared 'boost::_libboost'
+-- Conan: Component target declared 'Boost::atomic'
+-- Conan: Component target declared 'Boost::container'
+-- Conan: Component target declared 'Boost::context'
+-- Conan: Component target declared 'Boost::date_time'
+-- Conan: Component target declared 'Boost::exception'
+-- Conan: Component target declared 'Boost::math'
+-- Conan: Component target declared 'Boost::program_options'
+-- Conan: Component target declared 'Boost::regex'
+-- Conan: Component target declared 'Boost::serialization'
+-- Conan: Component target declared 'Boost::stacktrace'
+-- Conan: Component target declared 'Boost::system'
+-- Conan: Component target declared 'Boost::timer'
+-- Conan: Component target declared 'Boost::chrono'
+-- Conan: Component target declared 'Boost::coroutine'
+-- Conan: Component target declared 'Boost::filesystem'
+-- Conan: Component target declared 'Boost::json'
+-- Conan: Component target declared 'Boost::math_c99'
+-- Conan: Component target declared 'Boost::math_c99f'
+-- Conan: Component target declared 'Boost::math_c99l'
+-- Conan: Component target declared 'Boost::math_tr1'
+-- Conan: Component target declared 'Boost::math_tr1f'
+-- Conan: Component target declared 'Boost::math_tr1l'
+-- Conan: Component target declared 'Boost::random'
+-- Conan: Component target declared 'Boost::stacktrace_addr2line'
+-- Conan: Component target declared 'Boost::stacktrace_backtrace'
+-- Conan: Component target declared 'Boost::stacktrace_basic'
+-- Conan: Component target declared 'Boost::stacktrace_noop'
+-- Conan: Component target declared 'Boost::test'
+-- Conan: Component target declared 'Boost::url'
+-- Conan: Component target declared 'Boost::wserialization'
+-- Conan: Component target declared 'Boost::fiber'
+-- Conan: Component target declared 'Boost::graph'
+-- Conan: Component target declared 'Boost::iostreams'
+-- Conan: Component target declared 'Boost::nowide'
+-- Conan: Component target declared 'Boost::prg_exec_monitor'
+-- Conan: Component target declared 'Boost::test_exec_monitor'
+-- Conan: Component target declared 'Boost::thread'
+-- Conan: Component target declared 'Boost::wave'
+-- Conan: Component target declared 'Boost::contract'
+-- Conan: Component target declared 'Boost::fiber_numa'
+-- Conan: Component target declared 'Boost::locale'
+-- Conan: Component target declared 'Boost::log'
+-- Conan: Component target declared 'Boost::type_erasure'
+-- Conan: Component target declared 'Boost::unit_test_framework'
+-- Conan: Component target declared 'Boost::log_setup'
+-- Conan: Target declared 'boost::boost'
+-- CMake-Conan: find_package(BZip2) found, 'conan install' already ran
+-- Conan: Target declared 'BZip2::BZip2'
+-- Conan: Including build module from '/home/marcato/.conan2/p/b/bzip2b237997c1c99e/p/lib/cmake/conan-official-bzip2-variables.cmake'
+-- CMake-Conan: find_package(libbacktrace) found, 'conan install' already ran
+-- Conan: Target declared 'libbacktrace::libbacktrace'
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/marcato/CLionProjects/middleware/cmake-build-debug

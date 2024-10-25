@@ -1,0 +1,455 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake"
+		},
+		{
+			"path" : "conan_provider.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/DrogonConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/DrogonConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/DrogonTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Drogon-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Drogon-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/TrantorConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/TrantorConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/TrantorTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Trantor-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Trantor-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/c-ares-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/c-ares-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/c-aresTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/c-ares-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/c-ares-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/OpenSSLConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/OpenSSLConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/OpenSSLTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/OpenSSL-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/OpenSSL-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/ZLIBConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/ZLIBConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/ZLIBTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/ZLIB-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/ZLIB-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/marcato/.conan2/p/b/opens7e5ce8c1ed599/p/lib/cmake/conan-official-openssl-variables.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/jsoncpp-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/jsoncpp-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/jsoncppTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/jsoncpp-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/jsoncpp-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libuuid-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libuuid-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libuuidTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libuuid-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libuuid-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BoostConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BoostConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BoostTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Boost-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/Boost-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BZip2ConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BZip2Config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BZip2Targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BZip2-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/BZip2-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/marcato/.conan2/p/b/bzip2b237997c1c99e/p/lib/cmake/conan-official-bzip2-variables.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libbacktrace-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libbacktrace-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libbacktraceTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libbacktrace-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/conan/build/Debug/generators/libbacktrace-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/marcato/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "conanfile.py"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/marcato/CLionProjects/middleware/cmake-build-debug",
+		"source" : "/home/marcato/CLionProjects/middleware"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

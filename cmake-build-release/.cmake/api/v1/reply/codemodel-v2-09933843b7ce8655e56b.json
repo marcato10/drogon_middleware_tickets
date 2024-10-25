@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "middleware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "middleware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-middleware-Release-22222766eae911e9e857.json",
+					"name" : "middleware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "person::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-person-Release-3e534661b8af35901feb.json",
+					"name" : "person",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "person_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-person_controller-Release-310f5d7793a0795358ce.json",
+					"name" : "person_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "person_repository::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-person_repository-Release-37e0c7d5d0204cf6204c.json",
+					"name" : "person_repository",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proxy_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proxy_client-Release-e2d8edd1a171a5d8583b.json",
+					"name" : "proxy_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ticket::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ticket-Release-518b915d61d68e4812f6.json",
+					"name" : "ticket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ticket_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ticket_controller-Release-c3fe6cf4b4784acd4594.json",
+					"name" : "ticket_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ticket_repository::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ticket_repository-Release-3b85b672a3fe4f096c5f.json",
+					"name" : "ticket_repository",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marcato/CLionProjects/middleware/cmake-build-release",
+		"source" : "/home/marcato/CLionProjects/middleware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

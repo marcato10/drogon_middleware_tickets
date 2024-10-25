@@ -1,0 +1,1 @@
+. "/home/marcato/CLionProjects/middleware/cmake-build-debug/conan/build/Debug/generators/conanbuildenv-debug-x86_64.sh"

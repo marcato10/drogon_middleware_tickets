@@ -1,0 +1,19 @@
+# ninja log v6
+5951	6046	1729797985007507486	libperson.a	4900a0f8da90fa7
+253	319	1729863880779735301	libperson_controller.a	68ddfceefddf3632
+2	4014	1729518596951288841	CMakeFiles/person_repository.dir/repository/IPersonRepository.cpp.o	1eda88977b4b2189
+2	169	1729863880528734910	libticket.a	85eeccd304c4bfea
+18	6938	1729863534486192090	CMakeFiles/person_repository.dir/repository/PersonRepository.cpp.o	78010affb250cf04
+166	253	1729863880692735166	libperson_repository.a	c33bab46347c66a9
+3	165	1729863880529734911	libproxy_client.a	33e8e3a82ef3b71e
+5073	5150	1729863885599742825	libticket_controller.a	f9f66709162ffbe8
+4936	5000	1729863885462742611	libticket_repository.a	b87cdd345fa79748
+3	5073	1729863880529734911	CMakeFiles/ticket_controller.dir/controller/TicketController.cpp.o	ad5f87597ac8c7e
+3	4936	1729863880529734911	CMakeFiles/ticket_repository.dir/repository/TicketRepository.cpp.o	48482bcdced3de4e
+4938	7247	1729866352666854418	middleware	7fbc7363aaafc383
+18	6677	1729863534486192090	CMakeFiles/proxy_client.dir/model/proxy_client.cpp.o	43ef00fd23420909
+1	1139	1729875372282841899	build.ninja	c464b75a98a762ed
+5	4931	1729866347732921524	CMakeFiles/middleware.dir/main.cpp.o	18095e6bef1b2577
+9	5951	1729797979065498412	CMakeFiles/person.dir/model/person.cpp.o	1f2432650cbcdd5e
+19	6707	1729863534487192092	CMakeFiles/person_controller.dir/controller/PersonController.cpp.o	96d5908df349a5a5
+17	6669	1729863534485192089	CMakeFiles/ticket.dir/model/ticket.cpp.o	22da51887b26759
