@@ -1,32 +1,25 @@
-FROM ubuntu:noble
+FROM drogonframework/drogon
 LABEL authors="marcato"
 
 RUN apt-get update && apt-get install -y \
-    git \
-    gcc \
-    g++ \
-    cmake \
-    libjsoncpp-dev \
-    uuid-dev \
-    zlib1g-dev \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /drogon
-RUN git clone https://github.com/drogonframework/drogon . && \
-    git submodule update --init && \
-    mkdir build && \
-    cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Release .. && \
-    make && make install
-WORKDIR /app
+# Cria os diretórios
+RUN mkdir -p /drogon/install/middleware/build
 
-COPY cmake-build-release/ /app/
+# Copia os arquivos para o diretório do projeto
+COPY . /drogon/install/middleware/
 
-# Permissão de execução
-RUN chmod +x /app/middleware
+# Move para o diretório de build
+WORKDIR /drogon/install/middleware/build
+
+ENV PROXY_URL="http://localhost:8000"
+
+# Executa o CMake a partir do diretório build
+RUN cmake -DCMAKE_BUILD_TYPE=Release .. && \
+    cmake --build .
 
 EXPOSE 8000
-EXPOSE 3000
 
 CMD ["./middleware"]
-
